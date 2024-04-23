@@ -1,0 +1,13 @@
+.btn {
+  background: $c-main;
+  text-transform: uppercase;
+  color: $c-white;
+  font-weight: bold;
+
+  padding: 12px 24px;
+  border: none;
+
+  &:hover {
+    background: $c-main-hover;
+  }
+}

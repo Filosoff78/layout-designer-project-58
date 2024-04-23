@@ -1,0 +1,279 @@
+.body {
+  font-family: $f-main;
+  color: $f-color;
+  line-height: $f-line-height;
+}
+
+h1, h2, h3 {
+  line-height: $f-title-line-height;
+  font-family: $f-title;
+  font-weight: 400;
+  @include reset;
+}
+
+p {
+  @include reset;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+body {
+  @include reset;
+  font-family: $f-main;
+  line-height: $f-line-height;
+  font-size: $f-size;
+  color: $f-color;
+}
+
+.bg-base::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.container {
+  position: relative;
+  max-width: 1110px;
+
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+h1 {
+  span {
+    color: $c-main;
+  }
+}
+
+div.main {
+  img {
+    position: absolute;
+    top: 55px;
+    right: -270px;
+    height: 525px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+
+  &__title {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.no-column-break {
+  break-inside: avoid;
+}
+
+.bg-white {
+  background: $c-white;
+}
+
+.bg-brown {
+  background: $c-brown;
+}
+
+.bg-light {
+  background: $c-light;
+}
+
+.bg-dark {
+  background: $c-main-dark;
+}
+
+.text-center {
+  text-align: center;
+}
+
+iframe {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.d-flex-center {
+  @extend %flex-element-center;
+}
+
+.video {
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  &__item {
+    width: calc(33.333% - 20px);
+    background: $c-white;
+    padding: 24px;
+
+    &:first-of-type {
+      background: none;
+      color: white;
+      padding: 0;
+    }
+
+    &-description {
+      font-size: 52px;
+    }
+
+    &-head {
+      font-size: 64px;
+      line-height: 1em;
+      padding-bottom: 40px;
+    }
+
+    &-title {
+      color: $c-main;
+      padding-bottom: 16px;
+    }
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.col-2 > * {
+  width: 50%;
+}
+
+.effect {
+  &__how {
+    text-transform: uppercase;
+    font-family: $f-main;
+    font-size: 14px;
+  }
+
+  &__how {
+    padding: 5px 0 5px 10px;
+  }
+
+  &__description {
+    &-base {
+      font-family: $f-title;
+      font-size: 24px;
+    }
+
+    &-text {
+      padding-top: 30px;
+      font-family: $f-title;
+      font-size: 34px;
+      line-height: 40.8px;
+    }
+  }
+}
+
+.bg-light {
+  .effect {
+    &__how {
+      color: $c-white;
+      background: $c-brown;
+    }
+
+    &__description {
+      &-base {
+        color: $c-dark-opacity;
+      }
+
+      &-text {
+        padding-top: 30px;
+        font-family: $f-title;
+        font-size: 34px;
+        line-height: 40.8px;
+      }
+    }
+  }
+}
+
+.bg-brown {
+  .effect {
+    color: $c-white;
+
+    &__how {
+      color: $c-brown;
+      background: $c-white;
+    }
+
+    &__description {
+      &-base {
+        color: $c-white-opacity;
+      }
+
+      &-text {
+        padding-top: 30px;
+        font-family: $f-title;
+        font-size: 34px;
+        line-height: 40.8px;
+      }
+    }
+  }
+}
+
+.footer {
+  color: $c-white;
+  &__container {
+    padding: 55px;
+
+    &__email {
+      &-text {
+        font-size: 18px
+      }
+
+      &-rules {
+        font-size: 12px
+      }
+
+      &-input {
+        box-sizing: border-box;
+        border: 1px solid rgb(227, 227, 227);
+        padding: 15px;
+        width: 420px;
+        height: 50px;
+      }
+
+      &-button {
+        width: 70px;
+        height: 50px;
+        background: $c-main;
+        border: none;
+        position: relative;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 15px;
+          left: 23px;
+          width: 20px;
+          height: 20px;
+          background-image: url('../../images/send.svg');
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
+
+.contact {
+
+}
+

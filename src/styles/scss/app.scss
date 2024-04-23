@@ -1,18 +1,8 @@
-@function rem($value) {
-  $result: ($value / $rem-base) * 1rem;
+@import "default_variables";
+@import "mixin";
+@import "fonts";
 
-  @return #{$result};
-}
+@import "main";
+@import "components";
 
-h1,
-.h1 {
-  font-size: rem(30px);
-
-  @include media("md") {
-    font-size: rem(45px);
-  }
-
-  @include media("lg") {
-    font-size: rem(60px);
-  }
-}
+@import "generate";

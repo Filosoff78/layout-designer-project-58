@@ -85,6 +85,9 @@ h1 span, h2 span {
   color: #fe8a02;
 }
 
+div.main {
+  padding-bottom: 101px;
+}
 div.main img {
   position: absolute;
   top: 55px;

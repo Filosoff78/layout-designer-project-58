@@ -70,7 +70,7 @@ div.main {
     object-fit: contain;
   }
 
-  &__title {
+  &-title {
     position: relative;
     z-index: 2;
   }
@@ -117,7 +117,7 @@ iframe {
   flex-wrap: wrap;
   gap: 30px;
 
-  &__item {
+  &-item {
     width: calc(33.333% - 20px);
     background: $c-white;
     padding: 24px;
@@ -158,14 +158,14 @@ iframe {
 }
 
 .effect {
-  &__how {
+  &-how {
     text-transform: uppercase;
     font-family: $f-main;
     font-size: 14px;
     padding: 5px 0 5px 10px;
   }
 
-  &__description {
+  &-description {
     &-base {
       font-family: $f-title;
       font-size: 24px;
@@ -182,12 +182,12 @@ iframe {
 
 .light {
   .effect {
-    &__how {
+    &-how {
       color: $c-white;
       background: $c-brown;
     }
 
-    &__description {
+    &-description {
       &-base {
         color: $c-dark-opacity;
       }
@@ -206,12 +206,12 @@ iframe {
   .effect {
     color: $c-white;
 
-    &__how {
+    &-how {
       color: $c-brown;
       background: $c-white;
     }
 
-    &__description {
+    &-description {
       &-base {
         color: $c-white-opacity;
       }
@@ -229,10 +229,10 @@ iframe {
 .footer {
   color: $c-white;
 
-  &__container {
+  &-container {
     padding: 55px;
 
-    &__email {
+    &-email {
       &-text {
         font-size: 18px
       }

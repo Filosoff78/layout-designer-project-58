@@ -93,7 +93,7 @@ div.main img {
   overflow: hidden;
   object-fit: contain;
 }
-div.main__title {
+div.main-title {
   position: relative;
   z-index: 2;
 }
@@ -135,25 +135,25 @@ iframe {
   flex-wrap: wrap;
   gap: 30px;
 }
-.nav__item {
+.nav-item {
   width: calc(33.333% - 20px);
   background: #fff;
   padding: 24px;
 }
-.nav__item:first-of-type {
+.nav-item:first-of-type {
   background: none;
   color: white;
   padding: 0;
 }
-.nav__item-description {
+.nav-item-description {
   font-size: 52px;
 }
-.nav__item-head {
+.nav-item-head {
   font-size: 64px;
   line-height: 1em;
   padding-bottom: 40px;
 }
-.nav__item-title {
+.nav-item-title {
   color: #fe8a02;
   padding-bottom: 16px;
 }
@@ -170,31 +170,31 @@ iframe {
   width: 50%;
 }
 
-.effect__how {
+.effect-how {
   text-transform: uppercase;
   font-family: open sans, sans-serif;
   font-size: 14px;
   padding: 5px 0 5px 10px;
 }
-.effect__description-base {
+.effect-description-base {
   font-family: neucha regular, sans-serif;
   font-size: 24px;
 }
-.effect__description-text {
+.effect-description-text {
   padding-top: 30px;
   font-family: neucha regular, sans-serif;
   font-size: 34px;
   line-height: 40.8px;
 }
 
-.light .effect__how {
+.light .effect-how {
   color: #fff;
   background: #b09a81;
 }
-.light .effect__description-base {
+.light .effect-description-base {
   color: #908d8b;
 }
-.light .effect__description-text {
+.light .effect-description-text {
   padding-top: 30px;
   font-family: neucha regular, sans-serif;
   font-size: 34px;
@@ -204,14 +204,14 @@ iframe {
 .brown .effect {
   color: #fff;
 }
-.brown .effect__how {
+.brown .effect-how {
   color: #b09a81;
   background: #fff;
 }
-.brown .effect__description-base {
+.brown .effect-description-base {
   color: #d7ccc0;
 }
-.brown .effect__description-text {
+.brown .effect-description-text {
   padding-top: 30px;
   font-family: neucha regular, sans-serif;
   font-size: 34px;
@@ -221,30 +221,30 @@ iframe {
 .footer {
   color: #fff;
 }
-.footer__container {
+.footer-container {
   padding: 55px;
 }
-.footer__container__email-text {
+.footer-container-email-text {
   font-size: 18px;
 }
-.footer__container__email-rules {
+.footer-container-email-rules {
   font-size: 12px;
 }
-.footer__container__email-input {
+.footer-container-email-input {
   box-sizing: border-box;
   border: 1px solid #fff;
   padding: 15px;
   width: 420px;
   height: 50px;
 }
-.footer__container__email-button {
+.footer-container-email-button {
   width: 70px;
   height: 50px;
   background: #fe8a02;
   border: none;
   position: relative;
 }
-.footer__container__email-button::before {
+.footer-container-email-button::before {
   content: "";
   position: absolute;
   top: 15px;

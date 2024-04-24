@@ -81,7 +81,7 @@ body {
   padding: 100px 0;
 }
 
-h1 span {
+h1 span, h2 span {
   color: #fe8a02;
 }
 
@@ -100,6 +100,10 @@ div.main-title {
 
 .no-column-break {
   break-inside: avoid;
+}
+
+.column-gap-30 {
+  column-gap: 30px;
 }
 
 .bg-white {

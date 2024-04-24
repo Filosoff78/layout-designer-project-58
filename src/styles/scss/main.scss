@@ -54,7 +54,7 @@ body {
   padding: 100px 0;
 }
 
-h1 {
+h1, h2 {
   span {
     color: $c-main;
   }
@@ -78,6 +78,10 @@ div.main {
 
 .no-column-break {
   break-inside: avoid;
+}
+
+.column-gap-30 {
+  column-gap: 30px;
 }
 
 .bg-white {

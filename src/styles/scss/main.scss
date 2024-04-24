@@ -121,8 +121,7 @@ iframe {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  height: calc(100% - 5px);
+  height: calc(100% - 10px);
 
   &-item {
     width: calc(33.333% - 20px);
@@ -158,6 +157,10 @@ iframe {
 
 .gap-30 {
   gap: 30px;
+}
+
+.gap-15 {
+  gap: 15px;
 }
 
 .col-2 > * {

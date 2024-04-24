@@ -21,18 +21,18 @@
 }
 @font-face {
   font-weight: 400;
-  font-family: Neucha Regular;
+  font-family: "Neucha Regular";
   src: url("../../fonts/Neucha-Regular.ttf");
 }
 .body {
-  font-family: Open Sans, sans-serif;
+  font-family: open sans, sans-serif;
   color: #2a2626;
   line-height: 1.6em;
 }
 
 h1, h2, h3 {
   line-height: 1.2em;
-  font-family: Neucha Regular, sans-serif;
+  font-family: neucha regular, sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -55,7 +55,7 @@ section {
 body {
   margin: 0;
   padding: 0;
-  font-family: Open Sans, sans-serif;
+  font-family: open sans, sans-serif;
   line-height: 1.6em;
   font-size: 16px;
   color: #2a2626;
@@ -172,50 +172,48 @@ iframe {
 
 .effect__how {
   text-transform: uppercase;
-  font-family: Open Sans, sans-serif;
+  font-family: open sans, sans-serif;
   font-size: 14px;
-}
-.effect__how {
   padding: 5px 0 5px 10px;
 }
 .effect__description-base {
-  font-family: Neucha Regular, sans-serif;
+  font-family: neucha regular, sans-serif;
   font-size: 24px;
 }
 .effect__description-text {
   padding-top: 30px;
-  font-family: Neucha Regular, sans-serif;
+  font-family: neucha regular, sans-serif;
   font-size: 34px;
   line-height: 40.8px;
 }
 
-.bg-light .effect__how {
+.light .effect__how {
   color: #fff;
   background: #b09a81;
 }
-.bg-light .effect__description-base {
+.light .effect__description-base {
   color: #908d8b;
 }
-.bg-light .effect__description-text {
+.light .effect__description-text {
   padding-top: 30px;
-  font-family: Neucha Regular, sans-serif;
+  font-family: neucha regular, sans-serif;
   font-size: 34px;
   line-height: 40.8px;
 }
 
-.bg-brown .effect {
+.brown .effect {
   color: #fff;
 }
-.bg-brown .effect__how {
+.brown .effect__how {
   color: #b09a81;
   background: #fff;
 }
-.bg-brown .effect__description-base {
+.brown .effect__description-base {
   color: #d7ccc0;
 }
-.bg-brown .effect__description-text {
+.brown .effect__description-text {
   padding-top: 30px;
-  font-family: Neucha Regular, sans-serif;
+  font-family: neucha regular, sans-serif;
   font-size: 34px;
   line-height: 40.8px;
 }
@@ -234,7 +232,7 @@ iframe {
 }
 .footer__container__email-input {
   box-sizing: border-box;
-  border: 1px solid rgb(227, 227, 227);
+  border: 1px solid #fff;
   padding: 15px;
   width: 420px;
   height: 50px;

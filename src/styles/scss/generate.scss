@@ -9,6 +9,7 @@
     }
   }
 }
+
 @include generate-padding-classes;
 
 @mixin generate-columns-classes {
@@ -18,6 +19,7 @@
     }
   }
 }
+
 @include generate-columns-classes;
 
 @for $i from 1 to 4 {

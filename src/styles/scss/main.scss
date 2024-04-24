@@ -8,6 +8,7 @@ h1, h2, h3 {
   line-height: $f-title-line-height;
   font-family: $f-title;
   font-weight: 400;
+
   @include reset;
 }
 
@@ -161,9 +162,6 @@ iframe {
     text-transform: uppercase;
     font-family: $f-main;
     font-size: 14px;
-  }
-
-  &__how {
     padding: 5px 0 5px 10px;
   }
 
@@ -182,7 +180,7 @@ iframe {
   }
 }
 
-.bg-light {
+.light {
   .effect {
     &__how {
       color: $c-white;
@@ -204,7 +202,7 @@ iframe {
   }
 }
 
-.bg-brown {
+.brown {
   .effect {
     color: $c-white;
 
@@ -230,6 +228,7 @@ iframe {
 
 .footer {
   color: $c-white;
+
   &__container {
     padding: 55px;
 
@@ -244,7 +243,7 @@ iframe {
 
       &-input {
         box-sizing: border-box;
-        border: 1px solid rgb(227, 227, 227);
+        border: 1px solid $c-white;
         padding: 15px;
         width: 420px;
         height: 50px;
@@ -272,8 +271,3 @@ iframe {
     }
   }
 }
-
-.contact {
-
-}
-

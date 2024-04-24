@@ -140,7 +140,8 @@ iframe {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  height: calc(100% - 10px);
+  gap: 20px 30px;
+  height: calc(100% - 8px);
 }
 .nav-item {
   width: calc(33.333% - 20px);
@@ -268,6 +269,12 @@ iframe {
   background-image: url("../../images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .btn {

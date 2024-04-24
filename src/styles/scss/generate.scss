@@ -7,6 +7,12 @@
     .pb-#{$padding-value} {
       padding-bottom: #{$padding-value}px;
     }
+    .mt-#{$padding-value} {
+      margin-top: #{$padding-value}px;
+    }
+    .mb-#{$padding-value} {
+      margin-bottom: #{$padding-value}px;
+    }
   }
 }
 

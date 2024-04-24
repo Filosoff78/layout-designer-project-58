@@ -177,6 +177,10 @@ iframe {
   width: 50%;
 }
 
+.nav {
+  height: 891px;
+}
+
 .effect-how {
   text-transform: uppercase;
   font-family: open sans, sans-serif;

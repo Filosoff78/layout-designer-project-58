@@ -130,7 +130,7 @@ div.main-title {
 }
 
 iframe {
-  filter: drop-shadow(0 16px 32px rgb(0, 0, 0));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .video {
@@ -187,6 +187,7 @@ iframe {
   font-family: open sans, sans-serif;
   font-size: 14px;
   padding: 5px 0 5px 10px;
+  font-weight: 700;
 }
 .effect-img {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -276,9 +277,20 @@ iframe {
   flex-direction: column;
   gap: 18px;
 }
+.contact a {
+  color: #007DC1;
+}
 
 .overflow-visible {
   overflow: visible;
+}
+
+a {
+  color: inherit;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 .btn {

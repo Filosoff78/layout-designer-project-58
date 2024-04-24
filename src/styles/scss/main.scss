@@ -107,7 +107,7 @@ div.main {
 }
 
 iframe {
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 100%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .d-flex-center {
@@ -175,6 +175,7 @@ iframe {
     font-family: $f-main;
     font-size: 14px;
     padding: 5px 0 5px 10px;
+    font-weight: 700;
   }
 
   &-img {
@@ -292,8 +293,20 @@ iframe {
   display: flex;
   flex-direction: column;
   gap: 18px;
+
+  & a {
+    color: #007DC1;
+  }
 }
 
 .overflow-visible {
   overflow: visible;
+}
+
+a {
+  color: inherit;
+}
+
+.align-items-center {
+  align-items: center;
 }
